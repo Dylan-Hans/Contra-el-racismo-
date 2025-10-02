@@ -1,0 +1,218 @@
+<!-- =====================================
+  Archivo: index.html
+  Descripción: Landing page anti-racismo lista para usar
+  Nota: Guarda el CSS como styles.css (más abajo en este mismo documento encontrarás el contenido)
+===================================== -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>No es broma: Es Racismo</title>
+  <meta name="description" content="Campaña escolar contra el racismo con casos reales, testimonios y compromisos personales." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <header class="nav">
+    <a class="logo" href="#inicio">NO ES BROMA</a>
+    <nav class="links">
+      <a href="#caso">El caso</a>
+      <a href="#aprende">Aprende</a>
+      <a href="#testimonios">Voces</a>
+      <a href="#acciones">Actúa</a>
+      <a class="btn" href="#compromiso">Mi compromiso</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Inicio -->
+  <section id="inicio" class="hero">
+    <div class="hero__inner">
+      <h1><span class="pill">Alto</span> al racismo.<br/>Las palabras también hieren.</h1>
+      <p class="lead">Transformemos un caso de violencia verbal en una oportunidad para educar, empatizar y actuar.
+      </p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#caso">Ver el caso</a>
+        <a class="btn btn--ghost" href="#acciones">¿Qué puedo hacer?</a>
+      </div>
+      <div class="stats">
+        <div class="stat">
+          <span class="stat__num">1</span>
+          <span class="stat__label">palabra</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">puede</span>
+          <span class="stat__label">marcar</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">una</span>
+          <span class="stat__label">vida</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__gradient" aria-hidden="true"></div>
+  </section>
+
+  <!-- Sección: El caso disparador -->
+  <section id="caso" class="section container">
+    <div class="section__head">
+      <h2 class="title">El caso</h2>
+      <p class="muted">Insultos como “serranos” o “vicuñas” no son chistes: son racismo. Este proyecto parte de un hecho real para cuestionar lo que normalizamos.</p>
+  <a href="https://www.youtube.com/shorts/pSHhewvItRU?feature=share" target="_blank">
+    <img src="https://i.ytimg.com/vi/RbCRCfdgjsA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCzbOdIfXoqQTX4KT3trQYRJR1wQg" alt="Ver video" class="thumb-video">
+  </a>
+  <h3>Video relacionado</h3>
+  <p>Pulsa la imagen para ver el contenido completo.</p>
+
+    </div>
+
+    <div class="card-grid">
+      <article class="card">
+        <h3>¿Qué pasó?</h3>
+        <p>Una mujer insultó a pasajeros usando expresiones denigrantes y se sintió superior por su origen/apariencia. Hechos así ocurren más seguido de lo que admitimos.</p>
+        <div class="badge">Caso real</div>
+      </article>
+
+      <article class="card">
+        <h3>Por qué importa</h3>
+        <p>Las palabras refuerzan estereotipos, humillan y crean entornos inseguros. Denunciar es clave, pero <em>prevenir</em> y <em>educar</em> es todavía más poderoso.</p>
+        <div class="badge badge--warning">Alerta</div>
+      </article>
+
+      <article class="card">
+        <h3>Qué haremos</h3>
+        <p>Con esta página y códigos QR difundimos testimonios, datos y acciones concretas para que cada persona sea parte de la solución.</p>
+        <div class="badge badge--success">Acción</div>
+      </article>
+    </div>
+
+    
+
+  <!-- Sección: Aprende (datos / mitos) -->
+  <section id="aprende" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="title">Aprende</h2>
+        <p class="muted">Reconocer el racismo es el primer paso para detenerlo. Aquí algunos recordatorios clave:</p>
+      </div>
+
+      <div class="features">
+        <div class="feature">
+          <h3>No es opinión</h3>
+          <p>“Es mi opinión” no justifica la humillación. La libertad de expresión no ampara la violencia verbal.</p>
+        </div>
+        <div class="feature">
+          <h3>Las bromas también hieren</h3>
+          <p>Si el “chiste” humilla por origen, acento o rasgos, es racismo. Punto.</p>
+        </div>
+        <div class="feature">
+          <h3>Intervenir seguro</h3>
+          <p>Si presencias un insulto, puedes intervenir con frases simples: “Eso no está bien” / “No repitamos estereotipos”.</p>
+        </div>
+        <div class="feature">
+          <h3>Educar y reparar</h3>
+          <p>Ofrece información, escucha a quien fue agredido y, si eres parte del grupo, reconoce y corrige.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Sección: Testimonios (cards) -->
+  <section id="testimonios" class="section container">
+    <div class="section__head">
+      <h2 class="title">Voces que importan</h2>
+      <p class="muted">Testimonios breves que invitan a pensar antes de hablar.</p>
+    </div>
+
+    <div class="marquee" aria-label="Frases en movimiento">
+      <ul class="marquee__track">
+        <li>“Me decían ‘vicuña’ como chiste. A mí no me hacía gracia.”</li>
+        <li>“Aprendí a callar… hasta que entendí que callar también duele.”</li>
+        <li>“Mi cabello no es problema. Tu burla, sí.”</li>
+        <li>“No busco que me toleres: exijo respeto.”</li>
+        <li>“No nacemos racistas. Lo aprendemos. También podemos desaprender.”</li>
+      </ul>
+    </div> 
+
+    <div class="card-grid">
+      <blockquote class="quote">
+        “Cuando escucho ‘serrano’ como insulto siento que me dicen que mi origen es vergüenza.
+        Yo nací orgulloso de mi tierra.”
+        <cite>— Testimonio anónimo</cite>
+      </blockquote>
+      <blockquote class="quote">
+        “Fingí no oír un insulto para ‘no incomodar’. Me incomodé conmigo mismo.”
+        <cite>— Testimonio anónimo</cite>
+      </blockquote>
+      <blockquote class="quote">
+        “No es broma si humilla. No es opinión si discrimina.”
+        <cite>— Mensaje de la campaña</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Sección: Acciones -->
+  <section id="acciones" class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="title">Cómo actuar</h2>
+        <p class="muted">Cuatro pasos simples para detener el racismo en tu entorno.</p>
+      </div>
+
+      <ol class="steps">
+        <li>
+          <h3>Detén la cadena</h3>
+          <p>Di: “Eso no está bien”. Cambia el tema. No rías el chiste.</p>
+        </li>
+        <li>
+          <h3>Valida a la víctima</h3>
+          <p>Acércate y pregunta si está bien. Ofrece apoyo.</p>
+        </li>
+        <li>
+          <h3>Informa</h3>
+          <p>Comparte material educativo. Corrige estereotipos con respeto.</p>
+        </li>
+        <li>
+          <h3>Denuncia</h3>
+          <p>Si corresponde, busca canales de denuncia de tu institución o autoridades.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Sección: Compromiso personal (para usar con QR a formulario externo) -->
+  <section id="compromiso" class="section container">
+    <div class="commit">
+      <h2 class="title">Mi compromiso</h2>
+      <p class="muted">Escanea el QR final y escribe: <strong>“Yo paro el racismo cuando…”</strong> Tu voz importa.</p>
+      <div class="commit__grid">
+        <div class="commit__card">
+          <h3>Prometo</h3>
+          <ul>
+            <li>Detener chistes que humillan.</li>
+            <li>Evitar estereotipos en mi lenguaje.</li>
+            <li>Escuchar más que justificar.</li>
+            <li>Informarme y compartir.</li>
+          </ul>
+        </div>
+        <div class="commit__qr">
+          <img src="data:image/png;base64,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" alt="Imagen formulario" />
+          <span>Escanea para dejar tu opinión</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>Campaña escolar contra el racismo — Hecha con respeto y valentía.<br> Creado <br> Dylan Hans Delgado Bolivar <br> Yeferson Feliciano Rosas Grobas<br> Jhon Fran Melo Lipa <br> Chaska Milagros Loayza Matheus<br> Roly Jancco Quecaño<br></p>
+      <a class="top" href="#inicio" aria-label="Volver arriba">↑</a>
+    </div>
+  </footer>
+</body>
+</html>
+
+
